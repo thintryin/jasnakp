@@ -554,15 +554,14 @@ h6 {
   font-size: .6rem;
   color: hsl(0deg 0% 100%);
   border-radius: 50%;
-  background-color: hsl(0deg 0% 70%);
+  background-color: #13286b;
   box-shadow: inset 0 0 0 1px hsl(0deg 0% 100%);
-  border: 1px solid hsl(0deg 0% 70%);
+  border: 1px solid #13286b;
   left: 1rem;
   top: .74rem;
 }
 
 .education__content:hover {
-  background-color: hsl(0deg 0% 90% / 48%);
   border-radius: .25rem;
 }
 
