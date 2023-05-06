@@ -425,6 +425,16 @@ h6 {
   background-size: cover;
 }
 
+#hero:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #hero .container {
   padding-top: 70px;
   position: relative;
@@ -485,7 +495,6 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
   }
 
   #hero h1 {
