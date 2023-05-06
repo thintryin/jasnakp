@@ -141,7 +141,7 @@ h6 {
   max-height: 40px;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
   }
@@ -449,7 +449,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  
+
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -510,6 +510,73 @@ h6 {
   }
 }
 
+.education {
+  width: min(500px, 95vw);
+}
+
+.education__heading {
+  padding-inline-start: 4rem;
+}
+
+.education__heading h4 {
+  font-size: 2rem;
+  margin-block: .5rem;
+}
+
+.education__content {
+  position: relative;
+  padding: 1rem 1rem 1rem 4rem;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+.education__content h5 {
+  color: hsl(0deg 0% 0% / 90%);
+  font-size: 1rem;
+  margin-block: 0;
+}
+
+.education__content p {
+  color: hsl(0deg 0% 0% / 60%);
+  font-size: .9rem;
+  margin-block-start: .5rem;
+  margin-block-end: 0;
+}
+
+.education__content .year {
+  position: absolute;
+  content: var(--year);
+  width: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .6rem;
+  color: hsl(0deg 0% 100%);
+  border-radius: 50%;
+  background-color: hsl(0deg 0% 70%);
+  box-shadow: inset 0 0 0 1px hsl(0deg 0% 100%);
+  border: 1px solid hsl(0deg 0% 70%);
+  left: 1rem;
+  top: .74rem;
+}
+
+.education__content:hover {
+  background-color: hsl(0deg 0% 90% / 48%);
+  border-radius: .25rem;
+}
+
+.education__content:not(:last-child):before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  background-color: hsl(0deg 0% 87%);
+  left: calc(2rem - 2px);
+  top: 2.74rem;
+  bottom: -.74rem;
+  z-index: -1;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -554,7 +621,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/jasna\ image.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/jasna\ image.jpeg);
   background-size: cover;
   padding: 80px 0;
 }
