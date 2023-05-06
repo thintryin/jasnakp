@@ -427,7 +427,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.748);
+  background: rgba(0, 0, 0, 0.576);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -489,7 +489,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.748);
+    background: rgba(0, 0, 0, 0.576);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1305,7 +1305,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0px;
+  border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1329,7 +1329,7 @@ section {
   padding: 10px 30px 12px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 0px;
+  border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
