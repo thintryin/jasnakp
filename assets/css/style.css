@@ -423,6 +423,7 @@ h6 {
   height: 100vh;
   /*background: url("../img/hero-bg.jpg") top right;
   background-size: cover;*/
+   background-image: url(./images/jasna\ image.jpeg);
   background-color: #cccccc;
 }
 
