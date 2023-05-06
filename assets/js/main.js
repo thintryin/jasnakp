@@ -1,7 +1,10 @@
 let navbar = document.getElementById('navbar');
+let menuicon = document.getElementById('menuico');
 
 window.onscroll = () => {
   navbar.classList.remove('navbar-mobile');
+  menuicon.classList.remove('bi-x');
+  menuicon.classList.add('bi-list');
 }
 
 (function() {
