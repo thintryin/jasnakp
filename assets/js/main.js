@@ -1,10 +1,9 @@
-/**
-* Template Name: Jasna Kp
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/Jasna Kp-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+let navbar = document.getElementById('navbar');
+
+window.onscroll = () => {
+  navbar.classList.remove('navbar-mobile');
+}
+
 (function() {
   "use strict";
 
