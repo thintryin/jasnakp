@@ -421,14 +421,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
-  background: url("../img/jasna/jasna-image.jpeg") top right;
+  background: url("../img/jasna-image.jpeg") top right;
   background-size: cover;
-=======
-  background: url("../img/jasna/ image.jpeg") top right;
-  background-size: cover;
-  background-color: #cccccc;
->>>>>>> 37ad52a5bb610dd7ec730898fd7060069a3bbaa1
 }
 
 #hero .container {
